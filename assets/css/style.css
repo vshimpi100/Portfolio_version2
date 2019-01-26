@@ -19,5 +19,6 @@ body {
 
 
 .fixed-action-btn{
-    bottom: 10%;
+    bottom: 100px;
+    right: 25px;
 }
