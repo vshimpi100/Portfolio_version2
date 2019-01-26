@@ -16,3 +16,7 @@ body {
 #mainText{
     margin-top: 30vh;
 }
+
+.fixed-action-btn{
+    right:20%;
+}

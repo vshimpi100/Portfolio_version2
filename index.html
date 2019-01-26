@@ -56,32 +56,28 @@
             <li><a class="btn-floating grey darken-3" href="https://github.com/vshimpi100"><i class="fab fa-github"></i></a></li>
             <li><a class="btn-floating orange darken-3" href="https://stackoverflow.com/users/10768482/vivek-shimpi"><i
                         class="fab fa-stack-overflow"></i></a></li>
-            <li>
-                <!-- FACEBOOK CHAT BUTTON -->
-                <!-- Load Facebook SDK for JavaScript -->
-                <div id="fb-root"></div>
-                <script>
-                    (function (d, s, id) {
-                        var js, fjs = d.getElementsByTagName(s)[0];
-                        if (d.getElementById(id)) return;
-                        js = d.createElement(s);
-                        js.id = id;
-                        js.src =
-                            'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
-                        fjs.parentNode.insertBefore(js, fjs);
-                    }(document, 'script', 'facebook-jssdk'));
-                </script>
-
-                <!-- Your customer chat code -->
-                <div class="fb-customerchat teal darken-2 waves-effect waves-teal" attribution=setup_tool page_id="2174690646115929"
-                    logged_in_greeting="Hello, nice to meet you!" logged_out_greeting="Hello, nice to meet you!"
-                    greeting_dialÎog_display="hide">
-                </div>
-            </li>
         </ul>
     </div>
 
+    <!-- FACEBOOK CHAT BUTTON -->
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
 
+    <!-- Your customer chat code -->
+    <div class="fb-customerchat" attribution=setup_tool page_id="2174690646115929" theme_color="#2f6e63"
+        logged_in_greeting="Hello, nice to meet you!" logged_out_greeting="Hello, nice to meet you!"
+        greeting_dialog_display="hide">
+    </div>
 
     <!-- ABOUT -->
     <section id="intro" class="section teal">
