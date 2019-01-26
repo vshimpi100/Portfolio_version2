@@ -1,0 +1,18 @@
+body {
+    background-color: #546e7a;
+    color: rgb(24, 22, 22);
+}
+
+#landing{
+    height: 100vh;
+    background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0.452),rgba(255, 255, 255, 0.712)), url("../images/hero.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: -1;
+}
+
+#mainText{
+    margin-top: 30vh;
+}
