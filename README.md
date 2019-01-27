@@ -2,11 +2,11 @@
 
 ### Overview
 
-Now that you've had some practice with HTML and have a project to share, you'll be updating your portfolio page and other materials to build toward being employer competitive.
+<!-- Now that you've had some practice with HTML and have a project to share, you'll be updating your portfolio page and other materials to build toward being employer competitive.
 
 If you are opting out of career services, this is *still a required assignment*. Part of being a web developer means being a part of a community. Having a place to share your projects is *necessary* if you're applying for jobs, but is still *critical* on your journey as a developer.
 
-### Before you Begin
+### Before you Begin -->
 
 <!-- * Pin some repos that you want to share
 
@@ -34,11 +34,11 @@ To receive a passing grade on this assignment, you should meet all of the conten
 
 Your updated site should have the following content:
 
-* Your name
+<!-- * Your name -->
 
-* Links to your GitHub profile & LinkedIn page as well as your email address and phone number
+<!-- * Links to your GitHub profile & LinkedIn page as well as your email address and phone number -->
 
-* A link to a PDF of your resume
+<!-- * A link to a PDF of your resume -->
 
 * List of projects. For each project make sure you have the following:
 
@@ -50,11 +50,11 @@ Your updated site should have the following content:
 
 #### Design
 
-The content of your portfolio page is a lot more important than the aesthetics. That said, there are a couple basic requirements your portfolio page should meet:
+<!-- The content of your portfolio page is a lot more important than the aesthetics. That said, there are a couple basic requirements your portfolio page should meet: -->
 
-* Mobile-friendliness: you don't need advanced responsive styles, but you should ensure that your portfolio page is still readable on different screen sizes
+<!-- * Mobile-friendliness: you don't need advanced responsive styles, but you should ensure that your portfolio page is still readable on different screen sizes -->
 
-* Readability: make sure the font size is large enough to read, and that the colors don't cause eye strain.
+<!-- * Readability: make sure the font size is large enough to read, and that the colors don't cause eye strain. -->
 
 ### Suggested: Update Portfolio -- Employer Competitive
 
@@ -63,14 +63,14 @@ to ensure your portfolio site will help you be [employer competitive](https://dr
 
 #### Competitive Content
 
-* At least 3 deployed projects
+<!-- * At least 3 deployed projects -->
 
-* External content:
+<!-- * External content: -->
 
   * Update your LinkedIn with the projects you've worked on so far
 
-  * Update the README for each project you linked to with a description of the problem,
-  how you solved it, and some information about your technical approach
+  <!-- * Update the README for each project you linked to with a description of the problem,
+  how you solved it, and some information about your technical approach -->
 
   * Suggested: refactor some of your code from earlier assignments to make them more readable
 

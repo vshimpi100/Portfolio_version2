@@ -87,7 +87,7 @@ header h2{
 }
 
 .parallax-container{
-    height: 40vh;
+    height: 25vh;
 }
 
 #parallax1 {
@@ -120,4 +120,12 @@ header h2{
 
 .progress-wrapper{
     vertical-align: middle;
+}
+
+.section-header{
+    position: relative;
+    top: -80px;
+    padding: 30px;
+    background: #50b1a7;
+    border-radius: 10px;
 }
