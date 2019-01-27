@@ -30,6 +30,7 @@ header {
 
 #hero {
     margin: 0;
+    width: 100%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -48,6 +49,14 @@ header {
 
 #mainText {
     margin-top: 30vh;
+}
+
+header h1 {
+    font-size: 5vw;
+}
+
+header h2{
+    font-size: 1vw;
 }
 
 
@@ -77,8 +86,11 @@ header {
     position: fixed !important;
 }
 
+.parallax-container{
+    height: 40vh;
+}
+
 #parallax1 {
-    height: 100vh;
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.452), rgba(102, 179, 165, 0.712)), url("../images/parallax1.jpg");
     background-position: top center;
     background-size: cover;
@@ -86,10 +98,26 @@ header {
     background-attachment: fixed;
 }
 
+#parallax2 {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.452), rgba(102, 179, 165, 0.712)), url("../images/parallax2.jpg");
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 .skills-row {
     line-height: 150px;
 }
 
 .devicon {
     font-size: 150px !important;
+}
+
+.highlighted{
+    padding: 3px 5px;
+    border-radius: 5px;
+}
+
+.progress-wrapper{
+    vertical-align: middle;
 }

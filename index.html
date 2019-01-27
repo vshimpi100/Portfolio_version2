@@ -16,8 +16,10 @@
     <!-- Import FontAwesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
         crossorigin="anonymous">
-    <!--Import materialize.css-->
+    <!-- Import materialize.css -->
     <link type="text/css" rel="stylesheet" href="./assets/vendor/materialize/css/materialize.min.css" media="screen,projection" />
+    <!-- Import AOS CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <!-- CUSTOM CSS AND STYLE IMPORTS -->
     <link rel="stylesheet" href="./assets/css/style.css">
@@ -35,8 +37,9 @@
                     </a>
                     <ul class="right hide-on-med-and-down" id=navList>
                         <li><a href="#landing">Home</a></li>
-                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#about">About</a></li>
                         <li><a href="#projects">Projects</a></li>
+                        <li><a href="#experience">Experience</a></li>
                         <li><a href="#skills">Skills</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
@@ -48,9 +51,9 @@
     <header class="section" id="landing">
         <div class="container">
             <div class="row center" id="hero">
-                <img src="./assets/images/me.jpg" alt="Vivek Shimpi image" class="responsive-img circle col s10 m6 l4 offset-s1 offset-m3 offset-l4">
+                <img src="./assets/images/me.jpg" alt="Vivek Shimpi image" class="responsive-img circle col s8 m4 l2 offset-s2 offset-m4 offset-l5">
                 <h1 class="col s12 teal-text text-lighten-5">Hi! I'm Vivek</h1>
-                <h3 class="col s12 teal-text text-lighten-5"> <span class="typeBox"> </span></h3>
+                <h4 class="col s12 teal-text text-lighten-5"> <span class="typeBox"> </span></h4>
             </div>
         </div>
     </header>
@@ -69,7 +72,8 @@
             <li><a class="btn-floating blue darken-4" href="https://www.facebook.com/vshimpi"><i class="fab fa-facebook"></i></a></li>
             <li><a class="btn-floating blue-grey darken-1" href="https://www.linkedin.com/in/vivek-shimpi/"><i class="fab fa-linkedin"></i></a></li>
             <li><a class="btn-floating grey darken-3" href="https://github.com/vshimpi100"><i class="fab fa-github"></i></a></li>
-            <li><a class="btn-floating orange darken-3" href="https://stackoverflow.com/users/10768482/vivek-shimpi"><i class="fab fa-stack-overflow"></i></a></li>
+            <li><a class="btn-floating orange darken-3" href="https://stackoverflow.com/users/10768482/vivek-shimpi"><i
+                        class="fab fa-stack-overflow"></i></a></li>
         </ul>
     </div>
 
@@ -96,44 +100,80 @@
     </div> -->
 
     <!-- ABOUT -->
-    <section id="about" class="section teal">
+    <section id="about" class="section teal darken-2 teal-text text-lighten-5">
         <div class="container">
-            <div class="row">
-                <div class="col s12">
-                    <h2 class="center header"> "If you love life, don't waste time,
-                        for time is what life is made up of"</h2>
-                </div>
-            </div>
-            <div class="row center">
-                <div class="col s12 m12 l3">
-                    <img class="responsive-img" src="Your Picture Here">
-                </div>
-                <dic class="col s12 m12 offset-l1 l8 ">
-                    <h5 class="center">Vivek Shimpi <b>ABOUT ME</b></h5>
+            <div class="row valign-wrapper">
+                <div class="col s12 m12 l5">
+                    <h2 class="text-left"><span class="teal lighten-5 teal-text text-darken-4 highlighted">About</span>
+                        Me</h2>
                     <p>
-                        YOUR BIO
-                        <br />
-                        <i>“Some Awesome Quote To Show Off!” </i>
+                        I am an experienced Biomedical Product Development Engineer with a demonstrated history of
+                        working in the medical device industry. I am skilled in Design Controls, Project Planning,
+                        Microfabrication, Photolithography, and SolidWorks. I am a strong engineering professional with
+                        a Bachelor of Science (BS) focused in Biomedical Engineering and Materials Science from Georgia
+                        Institute of Technology.
                     </p>
-                </dic>
+                    <p>
+                        As a step into continuing education, I am now engaged in the Georgia Tech Coding Bootcamp's
+                        Full Stack Flex program. This program is intended to teach practical and working skills in full
+                        stack web development. This website is a product of the program.
+                    </p>
+                    <br>
+                    <a href="./assets/docs/Vivek_Shimpi_Resume.docx"><button class="btn-large teal lighten-5 teal-text text-darken-4 font-weight-bold">Download
+                            My Resume</button></a>
+                </div>
+                <div class="col s12 m12 offset-l1 l6 container valign">
+                    <div class="row">
+                        <div class="progress-block col s12">
+                            <h5 class="progress-header-title">Creative Design</h5>
+                            <div class="progress-item">
+                                <div class="progress teal darken-4">
+                                    <div class="determinate teal lighten-5" style="width: 60%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="progress-block col s12">
+                            <h5 class="progress-header-title">UX / UI Design</h5>
+                            <div class="progress-item">
+                                <div class="progress teal darken-4">
+                                    <div class="determinate teal lighten-5" style="width: 50%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="progress-block col s12">
+                            <h5 class="progress-header-title">Front End Development</h5>
+                            <div class="progress-item">
+                                <div class="progress teal darken-4">
+                                    <div class="determinate teal lighten-5" style="width: 80%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="progress-block col s12">
+                            <h5 class="progress-header-title">Back End Development</h5>
+                            <div class="progress-item">
+                                <div class="progress teal darken-4">
+                                    <div class="determinate teal lighten-5" style="width: 70%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="progress-block col s12">
+                            <h5 class="progress-header-title">System Engineering</h5>
+                            <div class="progress-item">
+                                <div class="progress teal darken-4">
+                                    <div class="determinate teal lighten-5" style="width: 45%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+        </div>
         </div>
     </section>
 
     <!--Parallax-->
     <section class="parallax-container">
         <div class="parallax" id="parallax1"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col s12 center white-text">
-                    <h1><b>QUOTE</b></h1>
-                    <h4>"Don’t be trapped by dogma –
-                        which is living with the results of other people’s thinking. <br />
-                        Don’t let the noise of other’s opinions drown out your own inner voice."
-                    </h4>
-                </div>
-            </div>
-        </div>
     </section>
 
     <!--Work-->
@@ -158,6 +198,11 @@
                 </div>
             </div>
         </div>
+    </section>
+
+    <!--Parallax-->
+    <section class="parallax-container">
+        <div class="parallax" id="parallax2"></div>
     </section>
 
     <!-- Skill Sets -->
@@ -265,7 +310,7 @@
             </div>
         </div>
     </section>
-    
+
     <footer class="section page-footer teal lighten-2">
         <div class="container center-align">
             &#169; Vivek Shimpi 2019
@@ -277,6 +322,11 @@
     <script type="text/javascript" src="assets/vendor/JQuery/jquery-3.3.1.min.js"></script>
     <!-- Import Materialize js -->
     <script type="text/javascript" src="./assets/vendor/materialize/js/materialize.min.js"></script>
+    <!-- Animate on Scroll JS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
     <!-- CUSTOM JS IMPORTS -->
     <script type="text/javascript" src="./assets/js/app.js"></script>
