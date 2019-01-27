@@ -9,6 +9,8 @@
     <title>Vivek Shimpi</title>
 
     <!-- VENDOR CSS AND STYLE IMPORTS -->
+    <!-- Dev Icons -->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Import FontAwesome -->
@@ -24,7 +26,7 @@
 <body>
     <!-- NAVBAR -->
     <section class="navbar-fixed">
-        <nav class="teal lighten-2">
+        <nav class="transparent z-depth-0">
             <div class="container">
                 <div class="nav-wrapper">
                     <a href="#" class="brand-logo">Vivek Shimpi</a>
@@ -32,21 +34,29 @@
                         <li><a href="#landing">Home</a></li>
                         <li><a href="#about">About Me</a></li>
                         <li><a href="#projects">Projects</a></li>
+                        <li><a href="#skills">Skills</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
     </section>
-    <section class="section" id="landing">
-        <h5 class="center" id="mainText">My name is</h5>
-        <h1 class="center">Vivek <b>Shimpi</b></h1>
-        <h6 class="center" id="mainText">Web Developer</h6>
-    </section>
+
+    <header class="section" id="landing">
+        <div class="container">
+            <div class="row center" id="hero">
+                <img src="./assets/images/me.jpg" alt="Vivek Shimpi image" class="responsive-img circle col s12 m6 l4 offset-m3 offset-l4">
+                <h1 class="col s12">Vivek Shimpi</h1>
+            </div>
+        </div>
+    </header>
+
+    <!-- navbar background -->
+    <div id='nav-bg'></div>
 
     <!-- FIXED ACTION BUTTON -->
     <div class="fixed-action-btn vertical">
-        <a class="btn-floating btn-large  teal darken-2 waves-effect waves-teal">
+        <a class="btn-floating btn-large  teal darken-2 waves-effect waves-teal right">
             <i class="fa fa-at"></i>
         </a>
         <ul>
@@ -68,7 +78,8 @@
             if (d.getElementById(id)) return;
             js = d.createElement(s);
             js.id = id;
-            js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
+            js.src =
+                'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
             fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));
     </script>
@@ -80,7 +91,7 @@
     </div>
 
     <!-- ABOUT -->
-    <section id="intro" class="section teal">
+    <section id="about" class="section teal">
         <div class="container">
             <div class="row">
                 <div class="col s12">
@@ -103,6 +114,154 @@
             </div>
         </div>
     </section>
+    <!--Parallax-->
+    <section class="parallax-container">
+        <div class="parallax" id="parallax1"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col s12 center white-text">
+                    <h1><b>QUOTE</b></h1>
+                    <h4>"Don’t be trapped by dogma –
+                        which is living with the results of other people’s thinking. <br />
+                        Don’t let the noise of other’s opinions drown out your own inner voice."
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Work-->
+    <section class="section teal darken-1" id="projects">
+        <div class="container">
+            <h3 class="header text_b center">My Projects </h3>
+            <div class="row ">
+                <div class="col s12 m12 l4">
+                    <div class="card hoverable teal lighten-2">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="./assets/images/hero.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator teal-text text-lighten-5">Project Title <i class="mdi-navigation-more-vert right"></i></span>
+                            <p><a class="teal-text text-lighten-5" href="#">Project link</a></p>
+                        </div>
+                        <div class="card-reveal teal lighten-2">
+                            <span class="card-title teal-text text-lighten-5">Project Title <i class="mdi-navigation-close right"></i></span>
+                            <p>Here is some more information about this project that is only revealed once clicked on.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Skill Sets -->
+    <section class="section teal" id="skills">
+        <div class="container">
+            <div class="row">
+                <h1 class="center white-text">
+                    My Skills
+                </h1>
+            </div>
+            <div class="row center skills-row">
+                <div class="col s12 m12 l3">
+                    <i class="devicon-amazonwebservices-plain-wordmark devicon teal-text text-lighten-5"></i>
+                </div>
+                <!-- <div class="col s12 m12 l3">
+                    <i class="devicon-angularjs-plain-wordmark devicon teal-text text-lighten-5"></i>
+                </div> -->
+                <div class="col s12 m12 l3">
+                    <i class="devicon-bootstrap-plain devicon teal-text text-lighten-5"></i>
+                </div>
+                <div class="col s12 m12 l3">
+                    <i class="devicon-css3-plain-wordmark devicon teal-text text-lighten-5"></i>
+                </div>
+                <!-- <div class="col s12 m12 l3">
+                    <i class="devicon-django-plain  devicon teal-text text-lighten-5"></i>
+                </div> -->
+                <!-- <div class="col s12 m12 l3">
+                    <i class="devicon-docker-plain-wordmark  devicon teal-text text-lighten-5"></i>
+                </div> -->
+                <div class="col s12 m12 l3">
+                    <i class="devicon-express-original-wordmark devicon teal-text text-lighten-5"></i>
+                </div>
+                <div class="col s12 m12 l3">
+                    <i class="devicon-git-plain-wordmark  devicon teal-text text-lighten-5"></i>
+                </div>
+                <div class="col s12 m12 l3">
+                    <i class="devicon-github-plain-wordmark devicon teal-text text-lighten-5"></i>
+                </div>
+                <!-- <div class="col s12 m12 l3">
+                    <i class="devicon-go-plain devicon teal-text text-lighten-5"></i>
+                </div> -->
+                <div class="col s12 m12 l3">
+                    <i class="devicon-heroku-original-wordmark devicon teal-text text-lighten-5"></i>
+                </div>
+                <div class="col s12 m12 l3">
+                    <i class="devicon-html5-plain-wordmark devicon teal-text text-lighten-5"></i>
+                </div>
+                <div class="col s12 m12 l3">
+                    <i class="devicon-inkscape-plain-wordmark devicon teal-text text-lighten-5"></i>
+                </div>
+                <!-- <div class="col s12 m12 l3">
+                    <i class="devicon-java-plain-wordmark devicon teal-text text-lighten-5"></i>
+                </div> -->
+                <div class="col s12 m12 l3">
+                    <i class="devicon-javascript-plain devicon teal-text text-lighten-5"></i>
+                </div>
+                <div class="col s12 m12 l3">
+                    <i class="devicon-jquery-plain-wordmark devicon teal-text text-lighten-5"></i>
+                </div>
+                <div class="col s12 m12 l3">
+                    <i class="devicon-linux-plain devicon teal-text text-lighten-5"></i>
+                </div>
+                <div class="col s12 m12 l3">
+                    <i class="devicon-mongodb-plain-wordmark devicon teal-text text-lighten-5"></i>
+                </div>
+                <div class="col s12 m12 l3">
+                    <i class="devicon-mysql-plain-wordmark devicon teal-text text-lighten-5"></i>
+                </div>
+                <div class="col s12 m12 l3">
+                    <i class="devicon-nodejs-plain-wordmark devicon teal-text text-lighten-5"></i>
+                </div>
+                <div class="col s12 m12 l3">
+                    <i class="devicon-photoshop-plain devicon teal-text text-lighten-5"></i>
+                </div>
+                <!-- <div class="col s12 m12 l3">
+                    <i class="devicon-php-plain devicon teal-text text-lighten-5"></i>
+                </div> -->
+                <!-- <div class="col s12 m12 l3">
+                    <i class="devicon-postgresql-plain devicon teal-text text-lighten-5"></i>
+                </div> -->
+                <div class="col s12 m12 l3">
+                    <i class="devicon-python-plain-wordmark devicon teal-text text-lighten-5"></i>
+                </div>
+                <div class="col s12 m12 l3">
+                    <i class="devicon-react-original-wordmark devicon teal-text text-lighten-5"></i>
+                </div>
+                <!-- <div class="col s12 m12 l3">
+                    <i class="devicon-ruby-plain-wordmark devicon teal-text text-lighten-5"></i>
+                </div> -->
+                <div class="col s12 m12 l3">
+                    <i class="devicon-sass-original devicon teal-text text-lighten-5"></i>
+                </div>
+                <!-- <div class="col s12 m12 l3">
+                    <i class="devicon-swift-plain-wordmark devicon teal-text text-lighten-5"></i>
+                </div> -->
+                <div class="col s12 m12 l3">
+                    <i class="devicon-visualstudio-plain-wordmark devicon teal-text text-lighten-5"></i>
+                </div>
+                <div class="col s12 m12 l3">
+                    <i class="devicon-vuejs-plain-wordmark devicon teal-text text-lighten-5"></i>
+                </div>
+                <div class="col s12 m12 l3">
+                    <i class="devicon-wordpress-plain devicon teal-text text-lighten-5"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="section page-footer teal lighten-2">
+        <div class="container center-align">
+            &#169; Vivek Shimpi 2019
+        </div>
+    </footer>
 
     <!-- VENDOR JS IMPORTS -->
     <!-- Import JQuery -->

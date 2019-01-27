@@ -8,7 +8,7 @@ If you are opting out of career services, this is *still a required assignment*.
 
 ### Before you Begin
 
-* Pin some repos that you want to share
+<!-- * Pin some repos that you want to share
 
   * Navigate to your [GitHub Profile](https://github.com/USERNAME?tab=repositories)
 
@@ -18,13 +18,13 @@ If you are opting out of career services, this is *still a required assignment*.
 
   * Click the checkboxes for your project and 2-3 homework assignments that you would like to share
 
-  * Make sure each of these projects is deployed and add a link to the deployed project in their README files
+  * Make sure each of these projects is deployed and add a link to the deployed project in their README files -->
 
-* Revisit your portfolio page
+<!-- * Revisit your portfolio page
 
   * Open up your old portfolio page
 
-  * Read through the rest of the homework requirements and decide whether you can update your existing portfolio page or if you want to start fresh now that you've had some more HTML/CSS practice (you may also want to change it to be a single page instead of multiple pages or you might even want to consider using a paid theme)
+  * Read through the rest of the homework requirements and decide whether you can update your existing portfolio page or if you want to start fresh now that you've had some more HTML/CSS practice (you may also want to change it to be a single page instead of multiple pages or you might even want to consider using a paid theme) -->
 
 ### Required: Update your Portfolio Site -- Employer Ready
 

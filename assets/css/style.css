@@ -1,24 +1,81 @@
 body {
-    background-color: #546e7a;
+    background-color: #69b3ac;
     color: rgb(24, 22, 22);
 }
 
-#landing{
+.navbar-fixed {
+    z-index: 3;
+    position: absolute;
+}
+
+header {
+    z-index: 2;
+    position: relative;
     height: 100vh;
-    background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0.452),rgba(255, 255, 255, 0.712)), url("../images/hero.jpg");
-    background-position: center;
+    background-image: linear-gradient(to bottom, rgba(128, 184, 173, 0.712), rgba(102, 179, 165, 0.712)), url("../images/hero.jpg");
+    background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    z-index: -1;
 }
 
-#mainText{
+#hero{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#nav-bg {
+    z-index: 1;
+    background: #69b3ac;
+    position: fixed;
+    height: 65px;
+    width: 100%;
+    top: 0;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2)
+}
+
+#mainText {
     margin-top: 30vh;
 }
 
 
-.fixed-action-btn{
+.fixed-action-btn {
     bottom: 100px;
     right: 25px;
+    z-index: 100;
+}
+
+/* Class for when element is above threshold */
+.pin-top {
+    position: relative;
+}
+
+/* Class for when element is below threshold */
+.pin-bottom {
+    position: relative;
+}
+
+/* Class for when element is pinned */
+.pinned {
+    position: fixed !important;
+}
+
+#parallax1 {
+    height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.452), rgba(102, 179, 165, 0.712)), url("../images/parallax1.jpg");
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.skills-row {
+    line-height: 150px;
+}
+
+.devicon {
+    font-size: 150px !important;
 }
