@@ -55,7 +55,7 @@ header h1 {
     font-size: 5vw;
 }
 
-header h2{
+header h2 {
     font-size: 1vw;
 }
 
@@ -71,22 +71,7 @@ header h2{
     color: rgb(27, 109, 109) !important;
 }
 
-/* Class for when element is above threshold */
-.pin-top {
-    position: relative;
-}
-
-/* Class for when element is below threshold */
-.pin-bottom {
-    position: relative;
-}
-
-/* Class for when element is pinned */
-.pinned {
-    position: fixed !important;
-}
-
-.parallax-container{
+.parallax-container {
     height: 25vh;
 }
 
@@ -105,6 +90,23 @@ header h2{
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
+#parallax3 {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.452), rgba(102, 179, 165, 0.712)), url("../images/parallax3.jpg");
+    background-position: bottom center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#parallax4 {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.452), rgba(102, 179, 165, 0.712)), url("../images/parallax4.jpg");
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 .skills-row {
     line-height: 150px;
 }
@@ -113,19 +115,75 @@ header h2{
     font-size: 150px !important;
 }
 
-.highlighted{
+.highlighted {
     padding: 3px 5px;
     border-radius: 5px;
 }
 
-.progress-wrapper{
-    vertical-align: middle;
+.progress-wrapper:first-child {
+    margin-top: 15%;
 }
 
-.section-header{
+.card-content {
     position: relative;
-    top: -80px;
-    padding: 30px;
-    background: #50b1a7;
-    border-radius: 10px;
+}
+
+.card-title {
+    position: relative;
+    bottom: 10px;
+}
+
+.anchor-button {
+    margin: 0;
+    width: 50%;
+    position: absolute;
+    top: 75%;
+    transform: translate(-50%, -50%);
+    z-index: 6;
+}
+
+.card-reveal {
+    z-index: 5;
+}
+
+#experience {}
+
+.scroll-box {
+    height: 30vh;
+    min-height: 400px;
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+/* label color */
+.input-field label {
+    color: #ffffff;
+}
+
+/* label focus color */
+.input-field input[type=text]:focus+label {
+    color: #ffffff;
+}
+
+/* label underline focus color */
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid teal;
+    box-shadow: 0 1px 0 0 #000;
+}
+
+/* valid color */
+.input-field input[type=text].valid {
+    border-bottom: 1px solid teal;
+    box-shadow: 0 1px 0 0 #000;
+}
+
+/* invalid color */
+.input-field input[type=text].invalid {
+    border-bottom: 1px solid red;
+    box-shadow: 0 1px 0 0 #000;
+}
+
+/* icon prefix focus color */
+.input-field .prefix.active {
+    color: #ffffff;
 }

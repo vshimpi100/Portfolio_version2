@@ -2,15 +2,6 @@
 $(document).ready(function () {
     // Set up fixed action button functionality
     $('.fixed-action-btn').floatingActionButton();
-
-    // $('.parallax').parallax();
-
-    // Set up pushpin functionality
-    $('.pushpin').pushpin({
-        top: 0,
-        bottom: 1000,
-        offset: 0
-    });
 });
 
 
@@ -41,3 +32,18 @@ $(window).on('scroll', function () {
 
 });
 
+// materialize card open on hover
+$(function () {
+    $('.card').hover(
+        function () {
+            $(this).find('> .card-image > img.activator').click();
+        },
+        function () {
+            $(this).find('> .card-reveal > .card-title').click();
+        }
+    );
+});
+
+// text area auto resize
+$('#message').val('');
+M.textareaAutoResize($('#message'))
