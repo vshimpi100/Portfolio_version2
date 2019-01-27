@@ -2,6 +2,7 @@
 $(document).ready(function () {
     // Set up fixed action button functionality
     $('.fixed-action-btn').floatingActionButton();
+    $('.parallax').parallax();
 });
 
 
