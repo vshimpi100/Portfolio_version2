@@ -29,7 +29,10 @@
         <nav class="transparent z-depth-0">
             <div class="container">
                 <div class="nav-wrapper">
-                    <a href="#" class="brand-logo">Vivek Shimpi</a>
+                    <a href="#" class="brand-logo align-text-top">
+                        <!-- <img src="assets/images/vivadel-logo-white.png"> -->
+                        Meet Vivek
+                    </a>
                     <ul class="right hide-on-med-and-down" id=navList>
                         <li><a href="#landing">Home</a></li>
                         <li><a href="#about">About Me</a></li>
@@ -45,8 +48,9 @@
     <header class="section" id="landing">
         <div class="container">
             <div class="row center" id="hero">
-                <img src="./assets/images/me.jpg" alt="Vivek Shimpi image" class="responsive-img circle col s12 m6 l4 offset-m3 offset-l4">
-                <h1 class="col s12">Vivek Shimpi</h1>
+                <img src="./assets/images/me.jpg" alt="Vivek Shimpi image" class="responsive-img circle col s10 m6 l4 offset-s1 offset-m3 offset-l4">
+                <h1 class="col s12 teal-text text-lighten-5">Hi! I'm Vivek</h1>
+                <h3 class="col s12 teal-text text-lighten-5"> <span class="typeBox"> </span></h3>
             </div>
         </div>
     </header>
@@ -56,22 +60,23 @@
 
     <!-- FIXED ACTION BUTTON -->
     <div class="fixed-action-btn vertical">
-        <a class="btn-floating btn-large  teal darken-2 waves-effect waves-teal right">
-            <i class="fa fa-at"></i>
+        <a class="btn-floating btn-large  teal lighten-5 waves-effect waves-teal right">
+            <i class="fas fa-link teal-icon"></i>
         </a>
         <ul>
+            <li><a class="btn-floating purple darken-1" href="./assets/docs/Vivek_Shimpi_Resume.docx" download><i class="fas fa-file-download"></i></a></li>
             <li><a class="btn-floating red darken-4" href="mailto:vivek@meetvivek.com"><i class="fas fa-envelope"></i></a></li>
             <li><a class="btn-floating blue darken-4" href="https://www.facebook.com/vshimpi"><i class="fab fa-facebook"></i></a></li>
             <li><a class="btn-floating blue-grey darken-1" href="https://www.linkedin.com/in/vivek-shimpi/"><i class="fab fa-linkedin"></i></a></li>
             <li><a class="btn-floating grey darken-3" href="https://github.com/vshimpi100"><i class="fab fa-github"></i></a></li>
-            <li><a class="btn-floating orange darken-3" href="https://stackoverflow.com/users/10768482/vivek-shimpi"><i
-                        class="fab fa-stack-overflow"></i></a></li>
+            <li><a class="btn-floating orange darken-3" href="https://stackoverflow.com/users/10768482/vivek-shimpi"><i class="fab fa-stack-overflow"></i></a></li>
         </ul>
     </div>
 
+    <!-- Stylistically not a fan of having 2 FABs -->
     <!-- FACEBOOK CHAT BUTTON -->
     <!-- Load Facebook SDK for JavaScript -->
-    <div id="fb-root"></div>
+    <!-- <div id="fb-root"></div>
     <script>
         (function (d, s, id) {
             var js, fjs = d.getElementsByTagName(s)[0];
@@ -82,13 +87,13 @@
                 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
             fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));
-    </script>
+    </script> -->
 
     <!-- Your customer chat code -->
-    <div class="fb-customerchat" attribution=setup_tool page_id="2174690646115929" theme_color="#2f6e63"
+    <!-- <div class="fb-customerchat" attribution=setup_tool page_id="2174690646115929" theme_color="#2f6e63"
         logged_in_greeting="Hello, nice to meet you!" logged_out_greeting="Hello, nice to meet you!"
         greeting_dialog_display="hide">
-    </div>
+    </div> -->
 
     <!-- ABOUT -->
     <section id="about" class="section teal">
@@ -114,6 +119,7 @@
             </div>
         </div>
     </section>
+
     <!--Parallax-->
     <section class="parallax-container">
         <div class="parallax" id="parallax1"></div>
@@ -129,6 +135,7 @@
             </div>
         </div>
     </section>
+
     <!--Work-->
     <section class="section teal darken-1" id="projects">
         <div class="container">
@@ -152,6 +159,7 @@
             </div>
         </div>
     </section>
+
     <!-- Skill Sets -->
     <section class="section teal" id="skills">
         <div class="container">
@@ -257,6 +265,7 @@
             </div>
         </div>
     </section>
+    
     <footer class="section page-footer teal lighten-2">
         <div class="container center-align">
             &#169; Vivek Shimpi 2019
@@ -271,6 +280,7 @@
 
     <!-- CUSTOM JS IMPORTS -->
     <script type="text/javascript" src="./assets/js/app.js"></script>
+    <script type="text/javascript" src="./assets/js/typing.js"></script>
 </body>
 
 </html>

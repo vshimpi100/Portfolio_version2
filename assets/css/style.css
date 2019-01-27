@@ -1,3 +1,7 @@
+html {
+    overflow-y: auto;
+}
+
 body {
     background-color: #69b3ac;
     color: rgb(24, 22, 22);
@@ -8,18 +12,23 @@ body {
     position: absolute;
 }
 
+.brand-logo img {
+    height: 60px;
+    padding: 10px;
+}
+
 header {
     z-index: 2;
     position: relative;
     height: 100vh;
-    background-image: linear-gradient(to bottom, rgba(128, 184, 173, 0.712), rgba(102, 179, 165, 0.712)), url("../images/hero.jpg");
+    background-image: radial-gradient(rgba(9, 53, 43, 0.767), rgba(115, 167, 157, 0.712)), url("../images/hero.jpg");
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
-#hero{
+#hero {
     margin: 0;
     position: absolute;
     top: 50%;
@@ -43,9 +52,14 @@ header {
 
 
 .fixed-action-btn {
-    bottom: 100px;
-    right: 25px;
+    /* values below are for when fb msg fab is on */
+    /* bottom: 100px;
+    right: 25px; */
     z-index: 100;
+}
+
+.teal-icon {
+    color: rgb(27, 109, 109) !important;
 }
 
 /* Class for when element is above threshold */
