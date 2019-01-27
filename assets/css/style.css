@@ -124,8 +124,20 @@ header h2 {
     margin-top: 15%;
 }
 
+.card-image{
+    overflow: hidden;
+    height: 250px;
+}
+
+img.activator{
+    width: 100%;
+    max-height: none;
+    min-height: 250px;
+}
+
 .card-content {
     position: relative;
+    padding-bottom: 0px !important;
 }
 
 .card-title {
@@ -134,16 +146,8 @@ header h2 {
 }
 
 .anchor-button {
-    margin: 10px 0 0 0;
-    width: 10 0%;
-    /* position: absolute;
-    top: 75%;
-    transform: translate(-50%, -50%); */
-    z-index: 6;
-}
-
-.card-reveal {
-    z-index: 5;
+    margin-top: 0px;
+    padding-top: 0px;
 }
 
 .scroll-box {

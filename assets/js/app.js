@@ -2,6 +2,7 @@
 $(document).ready(function () {
     // Set up fixed action button functionality
     $('.fixed-action-btn').floatingActionButton();
+    // Initialize parallax
     $('.parallax').parallax();
 });
 
@@ -47,4 +48,5 @@ $(function () {
 
 // text area auto resize
 $('#message').val('');
-M.textareaAutoResize($('#message'))
+M.textareaAutoResize($('#message'));
+
